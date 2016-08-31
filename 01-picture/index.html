@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>01 - picture</title>
+  <style>
+    img {
+      max-width : 100%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Trucos HTML (01) - Picture</h1>
+
+  <picture>
+    <!--<source srcset="img/banca.jpg" media="(min-width:600px)">-->
+    <!--<source srcset="img/auto.jpg" media="(min-width:300px)">-->
+    <source srcset="img/paisaje.webp" type="image/webp">
+    <source srcset="img/autopista.jpg" media="(orientation:landscape)">
+    <img src="img/perro.jpg" alt="perro">
+  </picture>
+
+</body>
+</html>
